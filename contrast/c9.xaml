@@ -1,0 +1,69 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="contrast.c9"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"/>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Kontrast" Style="{StaticResource PhoneTextNormalStyle}" FontSize="24"/>
+            <TextBlock Text="Colour Blindness" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="60"/>
+        </StackPanel>
+        <Grid x:Name="ContentPanel_Copy" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock HorizontalAlignment="Left" Margin="10,-15,0,0" TextWrapping="Wrap" Text="Level 9" VerticalAlignment="Top" FontSize="36"/>
+            <Image HorizontalAlignment="Left" Height="305" Margin="77,66,0,0" VerticalAlignment="Top" Width="321" Source="/Assets/c9.jpg"/>
+
+        </Grid>
+        <Button Content="0" HorizontalAlignment="Left" Margin="73,469,0,0" VerticalAlignment="Top" Width="132"  Grid.Row="1">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/colorwrong.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <Button Content="90" HorizontalAlignment="Left" Margin="73,392,0,0" VerticalAlignment="Top" Width="132" Grid.Row="1">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/colorwrong.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <Button Content="10" HorizontalAlignment="Left" Margin="270,469,0,0" VerticalAlignment="Top" Width="132" Grid.Row="1">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/c_color.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <Button Content="1" HorizontalAlignment="Left" Margin="270,392,0,0" VerticalAlignment="Top" Width="132" Grid.Row="1">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <ec:NavigateToPageAction TargetPage="/colorwrong.xaml"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+    </Grid>
+
+</phone:PhoneApplicationPage>

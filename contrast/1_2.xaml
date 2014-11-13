@@ -1,0 +1,121 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="contrast._1_2"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Kontrast" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="3 x 4" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Height="88"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Level 2" VerticalAlignment="Top" FontSize="30" Margin="19,0,0,0"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="6,-42,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="147,-42,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="291,-42,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="5,108,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="147,108,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="291,108,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="5,256,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="147,256,0,0" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="291,256,0,0" Background="#FF2D34BB">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/1_3.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="5,406,0,-6" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="147,406,0,-6" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="167" Width="161" Margin="291,406,0,-6" Background="#FF0008A8">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

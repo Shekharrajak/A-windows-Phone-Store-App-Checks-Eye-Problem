@@ -1,0 +1,131 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="contrast._49"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel Grid.Row="0" Margin="2,-9,-14,732"/>
+
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel_Copy" Margin="2,19,-2,-19">
+                <!--TitlePanel contains the name of the application and page title-->
+                <StackPanel Grid.Row="0" Margin="-11,-40,-1,763"/>
+
+                <!--ContentPanel - place additional content here-->
+                <Grid x:Name="ContentPanel_Copy1" Margin="-11,-12,11,12">
+                    <!--TitlePanel contains the name of the application and page title-->
+                    <StackPanel Grid.Row="0" Margin="-1,-32,-11,755"/>
+
+                    <!--ContentPanel - place additional content here-->
+                    <Grid x:Name="ContentPanel_Copy2" Margin="-1,-4,1,4">
+                        <!--TitlePanel contains the name of the application and page title-->
+                        <StackPanel Grid.Row="0" Margin="-5,-37,-7,639">
+                            <TextBlock Text="Kontrast" Style="{StaticResource PhoneTextNormalStyle}"/>
+                            <TextBlock Text="6 x 9" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+                        </StackPanel>
+
+                        <!--ContentPanel - place additional content here-->
+                        <Grid x:Name="ContentPanel_Copy3" Margin="-5,111,5,10">
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,2,0,0" Background="#FF2AC322">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Click">
+                                        <ec:NavigateToPageAction TargetPage="/all_navigate.xaml"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </Button>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,2,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,2,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,2,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,2,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,2,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,64,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,64,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,64,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,64,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,64,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,64,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,126,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,126,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,126,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,126,0,0" Background="#FF40DE38">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Click">
+                                        <ec:NavigateToPageAction TargetPage="/410.xaml"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </Button>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,126,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,126,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,188,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,188,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,188,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,188,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,188,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,188,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,251,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,251,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,251,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,251,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,251,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,251,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,313,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,313,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,313,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,313,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,313,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,313,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,375,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,375,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,375,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,375,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,375,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,375,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,437,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,437,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,437,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,437,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,437,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,437,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="19,500,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="88,500,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="157,500,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="226,500,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="295,500,0,0" Background="#FF2AC322"/>
+                            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="83" Width="92" Margin="364,500,0,0" Background="#FF2AC322"/>
+
+                        </Grid>
+                        <TextBlock HorizontalAlignment="Left" Margin="11,64,0,0" TextWrapping="Wrap" Text="Level 9" VerticalAlignment="Top" FontSize="30"/>
+
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
