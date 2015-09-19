@@ -32,4 +32,4 @@ http://www.colourblindawareness.org/colour-blindness/
 
 A lots of work have to do here in this app.
 
-#Copyright ,You don't have permission to copy this idea or content.
+####Copyright ,You don't have permission to copy this idea or content.
